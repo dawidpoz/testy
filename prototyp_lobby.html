@@ -1,0 +1,331 @@
+<head>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
+<style>
+    body{
+        padding: 0;
+        margin:0;
+        background: #c31432;  /* fallback for old browsers */
+        background-image: linear-gradient(to right, #240b36, #ff002c);
+        font-family: 'Poppins', sans-serif;
+    }
+    * {
+      box-sizing: border-box;
+    }
+    
+    .container{
+        position: relative;
+        transition: 0.5s;
+    }
+
+    .container:hover{
+        transform: scale(1.5);
+        z-index: 5;
+        transition: 0.5s;
+    }
+        
+    .roominfo--div{
+        display: grid;
+        gap: 1rem;
+        grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+        grid-auto-rows: auto;
+        padding: 30px;
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+    
+    .circle{
+        position: absolute;
+        top: 0px;
+        width: 100%;
+        height: 100%;
+        background: #ffaf00;
+        color: white;
+        clip-path: ellipse(200px 110px at center 0px);
+    }
+    
+    .content{
+        position: absolute;
+        bottom: 10px;
+        width: 100%;
+        text-align: center;
+        padding: 20px;
+        overflow:hidden; 
+        color: #333;
+    }
+    
+    h2, h4, h5, h6{
+        overflow:hidden; 
+        white-space:nowrap; 
+        text-overflow: ellipsis;
+    }
+    
+    h2, h4, h5{
+        margin: 0;
+    }
+    
+    .card{
+        position: relative;
+        height: 350px;
+        background-color: rgba(240, 240, 240, 0.99);
+        box-shadow: 0 15px 25px rgba(0,0,0,0.2);
+        text-decoration: none;
+        border-radius: 20px;
+        overflow: hidden;
+        color: black;
+        transition: 0.5s;
+        text-align: center;
+    }
+    
+    .enter_course{
+        background-color: #ffaf00;
+        border: 0;
+        border-radius: 20px;
+        padding: 10px;
+        color: white;
+        outline: none;
+        cursor: pointer;
+    }
+
+
+</style>
+<body>
+    <div style="background-image: linear-gradient(to top,rgba(0,0,0,.8) 0,rgba(0,0,0,0) 60%,rgba(0,0,0,.8) 100%)">
+			
+		<div class="roominfo--div">
+            <div class="container">
+                <div class="card">
+                    <div class="circle"><h1>01</h1></div>
+                    <div class="content">
+                        <h4>Imię</h4>
+                        <h2>Nazwisko</h2>
+                        <h5>(login)</h5>
+                        <h6>Nazwa kursuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu</h6>
+                        <button class="enter_course">Przejdź do kursu</button>
+                    </div>
+                </div>
+            </div><div class="container">
+                <div class="card">
+                    <div class="circle"><h1>01</h1></div>
+                    <div class="content">
+                        <h4>Imię</h4>
+                        <h2>Nazwisko</h2>
+                        <h5>(login)</h5>
+                        <h6>Nazwa kursu</h6>
+                        <button class="enter_course">Przejdź do kursu</button>
+                    </div>
+                </div>
+            </div><div class="container">
+                <div class="card">
+                    <div class="circle"><h1>01</h1></div>
+                    <div class="content">
+                        <h4>Imię</h4>
+                        <h2>Nazwisko</h2>
+                        <h5>(login)</h5>
+                        <h6>Nazwa kursu</h6>
+                        <button class="enter_course">Przejdź do kursu</button>
+                    </div>
+                </div>
+            </div><div class="container">
+                <div class="card">
+                    <div class="circle"><h1>01</h1></div>
+                    <div class="content">
+                        <h4>Imię</h4>
+                        <h2>Nazwisko</h2>
+                        <h5>(login)</h5>
+                        <h6>Nazwa kursu</h6>
+                        <button class="enter_course">Przejdź do kursu</button>
+                    </div>
+                </div>
+            </div><div class="container">
+                <div class="card">
+                    <div class="circle"><h1>01</h1></div>
+                    <div class="content">
+                        <h4>Imię</h4>
+                        <h2>Nazwisko</h2>
+                        <h5>(login)</h5>
+                        <h6>Nazwa kursu</h6>
+                        <button class="enter_course">Przejdź do kursu</button>
+                    </div>
+                </div>
+            </div><div class="container">
+                <div class="card">
+                    <div class="circle"><h1>01</h1></div>
+                    <div class="content">
+                        <h4>Imię</h4>
+                        <h2>Nazwisko</h2>
+                        <h5>(login)</h5>
+                        <h6>Nazwa kursu</h6>
+                        <button class="enter_course">Przejdź do kursu</button>
+                    </div>
+                </div>
+            </div><div class="container">
+                <div class="card">
+                    <div class="circle"><h1>01</h1></div>
+                    <div class="content">
+                        <h4>Imię</h4>
+                        <h2>Nazwisko</h2>
+                        <h5>(login)</h5>
+                        <h6>Nazwa kursu</h6>
+                        <button class="enter_course">Przejdź do kursu</button>
+                    </div>
+                </div>
+            </div><div class="container">
+                <div class="card">
+                    <div class="circle"><h1>01</h1></div>
+                    <div class="content">
+                        <h4>Imię</h4>
+                        <h2>Nazwisko</h2>
+                        <h5>(login)</h5>
+                        <h6>Nazwa kursu</h6>
+                        <button class="enter_course">Przejdź do kursu</button>
+                    </div>
+                </div>
+            </div><div class="container">
+                <div class="card">
+                    <div class="circle"><h1>01</h1></div>
+                    <div class="content">
+                        <h4>Imię</h4>
+                        <h2>Nazwisko</h2>
+                        <h5>(login)</h5>
+                        <h6>Nazwa kursu</h6>
+                        <button class="enter_course">Przejdź do kursu</button>
+                    </div>
+                </div>
+            </div><div class="container">
+                <div class="card">
+                    <div class="circle"><h1>01</h1></div>
+                    <div class="content">
+                        <h4>Imię</h4>
+                        <h2>Nazwisko</h2>
+                        <h5>(login)</h5>
+                        <h6>Nazwa kursu</h6>
+                        <button class="enter_course">Przejdź do kursu</button>
+                    </div>
+                </div>
+            </div><div class="container">
+                <div class="card">
+                    <div class="circle"><h1>01</h1></div>
+                    <div class="content">
+                        <h4>Imię</h4>
+                        <h2>Nazwisko</h2>
+                        <h5>(login)</h5>
+                        <h6>Nazwa kursu</h6>
+                        <button class="enter_course">Przejdź do kursu</button>
+                    </div>
+                </div>
+            </div><div class="container">
+                <div class="card">
+                    <div class="circle"><h1>01</h1></div>
+                    <div class="content">
+                        <h4>Imię</h4>
+                        <h2>Nazwisko</h2>
+                        <h5>(login)</h5>
+                        <h6>Nazwa kursu</h6>
+                        <button class="enter_course">Przejdź do kursu</button>
+                    </div>
+                </div>
+            </div><div class="container">
+                <div class="card">
+                    <div class="circle"><h1>01</h1></div>
+                    <div class="content">
+                        <h4>Imię</h4>
+                        <h2>Nazwisko</h2>
+                        <h5>(login)</h5>
+                        <h6>Nazwa kursu</h6>
+                        <button class="enter_course">Przejdź do kursu</button>
+                    </div>
+                </div>
+            </div><div class="container">
+                <div class="card">
+                    <div class="circle"><h1>01</h1></div>
+                    <div class="content">
+                        <h4>Imię</h4>
+                        <h2>Nazwisko</h2>
+                        <h5>(login)</h5>
+                        <h6>Nazwa kursu</h6>
+                        <button class="enter_course">Przejdź do kursu</button>
+                    </div>
+                </div>
+            </div><div class="container">
+                <div class="card">
+                    <div class="circle"><h1>01</h1></div>
+                    <div class="content">
+                        <h4>Imię</h4>
+                        <h2>Nazwisko</h2>
+                        <h5>(login)</h5>
+                        <h6>Nazwa kursu</h6>
+                        <button class="enter_course">Przejdź do kursu</button>
+                    </div>
+                </div>
+            </div><div class="container">
+                <div class="card">
+                    <div class="circle"><h1>01</h1></div>
+                    <div class="content">
+                        <h4>Imię</h4>
+                        <h2>Nazwisko</h2>
+                        <h5>(login)</h5>
+                        <h6>Nazwa kursu</h6>
+                        <button class="enter_course">Przejdź do kursu</button>
+                    </div>
+                </div>
+            </div><div class="container">
+                <div class="card">
+                    <div class="circle"><h1>01</h1></div>
+                    <div class="content">
+                        <h4>Imię</h4>
+                        <h2>Nazwisko</h2>
+                        <h5>(login)</h5>
+                        <h6>Nazwa kursu</h6>
+                        <button class="enter_course">Przejdź do kursu</button>
+                    </div>
+                </div>
+            </div><div class="container">
+                <div class="card">
+                    <div class="circle"><h1>01</h1></div>
+                    <div class="content">
+                        <h4>Imię</h4>
+                        <h2>Nazwisko</h2>
+                        <h5>(login)</h5>
+                        <h6>Nazwa kursu</h6>
+                        <button class="enter_course">Przejdź do kursu</button>
+                    </div>
+                </div>
+            </div><div class="container">
+                <div class="card">
+                    <div class="circle"><h1>01</h1></div>
+                    <div class="content">
+                        <h4>Imię</h4>
+                        <h2>Nazwisko</h2>
+                        <h5>(login)</h5>
+                        <h6>Nazwa kursu</h6>
+                        <button class="enter_course">Przejdź do kursu</button>
+                    </div>
+                </div>
+            </div><div class="container">
+                <div class="card">
+                    <div class="circle"><h1>01</h1></div>
+                    <div class="content">
+                        <h4>Imię</h4>
+                        <h2>Nazwisko</h2>
+                        <h5>(login)</h5>
+                        <h6>Nazwa kursu</h6>
+                        <button class="enter_course">Przejdź do kursu</button>
+                    </div>
+                </div>
+            </div><div class="container">
+                <div class="card">
+                    <div class="circle"><h1>01</h1></div>
+                    <div class="content">
+                        <h4>Imię</h4>
+                        <h2>Nazwisko</h2>
+                        <h5>(login)</h5>
+                        <h6>Nazwa kursu</h6>
+                        <button class="enter_course">Przejdź do kursu</button>
+                    </div>
+                </div>
+            </div>
+			
+		</div>
+	</div>
+</body>
